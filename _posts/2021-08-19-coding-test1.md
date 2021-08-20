@@ -1,7 +1,7 @@
 ---
 title: 프로그래머스(해시) - 완주하지 못한 선수
 author: 서동섭
-date: 2021-08-20 22:11:00 +0800
+date: 2021-08-19 22:11:00 +0800
 categories: [Coding-test, Tutorial]
 tags: [coding-test, hash, programmers]
 pin: false
