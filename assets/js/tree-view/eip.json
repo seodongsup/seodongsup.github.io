@@ -1,0 +1,40 @@
+{ 
+    "text" : "정보처리기사 실기",
+    "state" : { "opened" : true },
+    "children" : [
+        {
+            "text" : "요구사항 확인",            
+            "children":[
+                {
+                    "text" : "소프트웨어 생명 주기",                    
+                    "children":[
+                        {
+                            "text" : "폭포수 모형(Waterfall Model)",
+                            "icon" : "jstree-file",
+                            "state" : { "click" : true },
+                            "comment" : "설명..."
+
+                        },
+                        {
+                            "text" : "프로토타입 모형(Prototype Model, 원형모형)",
+                            "icon" : "jstree-file",
+                            "state" : { "click" : true },
+                            "comment" : "설명..."
+                        }
+                    ]
+                },
+                {
+                    "text" : "스크럼(Scrum) 기법"                    
+                },
+                {
+                    "text" : "OP(eXtreme Programming) 기법"                    
+                }
+            ]
+
+        },
+        { 
+            "text" : "테이터 입/출력 구현"         
+            
+        }
+    ]
+}
