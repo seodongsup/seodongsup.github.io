@@ -2,16 +2,16 @@
 title: 프로그래머스(해시) - 위장
 author: 서동섭
 date: 2021-09-04 22:11:00 +0800
-categories: [Coding-test, Tutorial]
+categories: [Coding-test, programmers]
 tags: [coding-test, hash, programmers]
 pin: false
 ---
 
-## 문제2 - 위장
+## 출처
 
 <a target="_blank" href="https://programmers.co.kr/learn/courses/30/lessons/42578">문제링크</a>
 
-# 문제 설명
+## 문제 설명
 
 스파이들은 매일 다른 옷을 조합하여 입어 자신을 위장합니다.
 
@@ -25,7 +25,7 @@ pin: false
 
 스파이가 가진 의상들이 담긴 2차원 배열 clothes가 주어질 때 서로 다른 옷의 조합의 수를 return 하도록 solution 함수를 작성해주세요.
 
-# 제한사항
+## 제한사항
 
 - clothes의 각 행은 [의상의 이름, 의상의 종류]로 이루어져 있습니다.
 - 스파이가 가진 의상의 수는 1개 이상 30개 이하입니다.
@@ -34,13 +34,13 @@ pin: false
 - 모든 문자열의 길이는 1 이상 20 이하인 자연수이고 알파벳 소문자 또는 '_' 로만 이루어져 있습니다.
 - 스파이는 하루에 최소 한 개의 의상은 입습니다.
 
-# 입출력 예
+## 입출력 예
 
 clothes |   return
 [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]    |	5
 [["crowmask", "face"], ["bluesunglasses", "face"], ["smoky_makeup", "face"]]    |	3
 
-# 입출력 예 설명
+## 입출력 예 설명
 
 예제 #1 <br/>
 headgear에 해당하는 의상이 yellow_hat, green_turban이고 eyewear에 해당하는 의상이 blue_sunglasses이므로 아래와 같이 5개의 조합이 가능합니다.
